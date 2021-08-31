@@ -1,0 +1,7 @@
+.a-search-placeholder {
+  @include font-default-regular();
+  @include u-fz(14, 17);
+  color: #8695a0;
+  margin: 0;
+  padding-left: 18px;
+}

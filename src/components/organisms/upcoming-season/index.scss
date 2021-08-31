@@ -1,0 +1,22 @@
+.o-upcoming-season {
+  display: flex;
+  width: 385px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  @include tab() {
+    width: 358px;
+  }
+
+  @include sp() {
+    width: 336px;
+  }
+
+  &__date {
+    width: 20%;
+  }
+
+  &__season-item {
+    width: 80%;
+  }
+}
